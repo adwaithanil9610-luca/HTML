@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 30px;
+            background: linear-gradient(to left, rgb(247, 234, 243), rgb(216, 238, 238));
+
+
+        }
+
+        table {
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-collapse: collapse;
+
+
+        }
+
+        h1 {
+            background: linear-gradient(to left, rgb(247, 0, 255), rgb(223, 187, 234), rgb(189, 205, 212));
+            text-align: center;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-style: italic;
+            color: rgb(177, 24, 182);
+        }
+
+        thead {
+            background-color: rgb(153, 67, 193);
+            text-align: center;
+            font-weight: 100%;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(231, 203, 240);
+        }
+
+        div {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        td:hover {
+            cursor: pointer;
+            transform: scale(1.09);
+        }
+
+        strong {
+            padding: 150px;
+            color: rgba(69, 29, 106, 0.695);
+            font-size: medium;
+
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li:nth-child(odd) {
+            background-color: rgb(198, 241, 241);
+            width: 200px;
+            border-left: 4px solid rgb(50, 221, 240);
+
+
+        }
+
+        li:nth-child(even) {
+            background-color: rgb(246, 217, 221);
+            width: 200px;
+            border-left: 4px solid rgba(215, 48, 165, 0.86);
+        }
+
+        ul li {
+            margin: 7px;
+            border-radius: 8px;
+            padding: 8px;
+
+        }
+
+        li:hover {
+            cursor: pointer;
+            transform: scale(1.08);
+            background-color: rgb(246, 177, 200);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> 🎬My Movie Dashboard🎬 </h1>
+    <p>Top rated films and genere collection🎞️</p>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+
+                    <td><b> # </b></td>
+                    <td><b>TITLE</b></td>
+                    <td><b>GENRE</b></td>
+                    <td><b>RATING</b></td>
+
+                </tr>
+            </thead>
+            <tr>
+                <td>#1</td>
+                <td>🎥Inception</td>
+                <td>Sci-Fi</td>
+                <td>5⭐</td>
+            </tr>
+            <tr>
+                <td>#2</td>
+                <td>🎥The Dark Knight</td>
+                <td>Action</td>
+                <td>5⭐</td>
+            </tr>
+            <tr>
+                <td>#3</td>
+                <td>🎥Interseller</td>
+                <td>Adventure</td>
+                <td>4⭐</td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>🎥Parasite</td>
+                <td>Drama</td>
+                <td>4⭐</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <strong>🎭Popular Movie Genres</strong>
+
+        <ul>
+            <li>🍿Sci-Fi</li>
+            <li>🍿Action</li>
+            <li>🍿Adventure</li>
+            <li>🍿Comedy</li>
+            <li>🍿Fantasy</li>
+        </ul>
+    </div>
+</body>
+
+</html>

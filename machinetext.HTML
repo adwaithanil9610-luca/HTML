@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10%;
+        border-bottom: 1px solid #eee;
+        background-color: rgb(162, 153, 142);
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(71, 215, 71);
+    }
+
+    .hello {
+        margin-left: 20px;
+        text-decoration: none;
+        color: gray;
+        font-size: 14px;
+        text-align: left;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .container {
+        display: flex;
+        padding: 50px;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 1100px;
+        margin: auto;
+
+    }
+
+    .image img {
+        max-width: 450%;
+        border-radius: 10px;
+    }
+
+    .content {
+        font-size: 20px;
+        color: black;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        flex: 1;
+    }
+
+    .content .description {
+        color: black;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .list {
+        list-style: circle;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    .list li {
+        margin-bottom: 10px;
+        position: relative;
+        padding-right: 100px;
+    }
+
+    .readmore {
+        display: inline-block;
+        padding: 15px;
+        border: none;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 0.3s ease;
+
+    }
+
+    .readmore:hover {
+        background-color: black;
+    }
+</style>
+
+<body>
+    <header class="best">
+        <div class="logo">Foody</div>
+        <nav class="hello">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Products</a>
+            <a href="">Pages</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+    <Section class="container">
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwCpaZ-OKcCZZDQjZ4AutC--P7CWAGaY32gA&s"
+                alt="Organic Vegetables and Fruits">
+        </div>
+        <div class="content">
+            <h1>Best Organics Fruits And Vegetables</h1>
+            <p class="description">the edible parts of plants—including leaves, roots, tubers, stems, bulbs, and
+                flowers—that are consumed by humans as food, usually as part of a savory, nutrient-dense diet</p>
+
+            <ul class="list">
+                <li>Tempror erat elitr redum at dilta</li>
+                <li>Aliqu dilam amet diam et eos</li>
+                <li>cilta duo justo manga dolore erat amet</li>
+            </ul>
+            <a href="#" class="readmore">Read More</a>
+        </div>
+
+    </Section>
+</body>
+
+</html>

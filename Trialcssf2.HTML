@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(236, 234, 234);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        div {
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            width: 100%;
+        }
+
+        table {
+            border: 1px solid rgb(223, 222, 222);
+            width: 100%;
+            text-align: left;
+            margin: auto;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: white;
+            border-collapse: collapse;
+
+
+        }
+
+        tbody tr:nth-child(odd) {
+            background: rgb(217, 217, 218);
+
+        }
+
+        h1 {
+            font-size: 1.25rem;
+        
+        }
+
+        thead {
+            text-align: left;
+            font-weight: 100%;
+            font-size: xx-small;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            font-size: 1rem;
+            color: rgb(88, 85, 85);
+        }
+
+        .hey {
+            padding: 6px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: rgb(231, 219, 219);
+            display: inline-block;
+            background-color: rgb(84, 203, 84);
+        }
+
+        #p1 {
+            color: aliceblue;
+            background-color: orangered;
+            padding: 6px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        #p2 {
+            color: aliceblue;
+            background-color: rgb(194, 194, 40);
+            padding: 6px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        #p3 {
+            text-align: center;
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Recent Transactions</h1>
+        <table>
+            <thead>
+                <tr>
+
+                    <td><b>TransactionID</b></td>
+                    <td><b>Date</b></td>
+                    <td><b>E-mail</b></td>
+                    <td><b>Subscription</b></td>
+                    <td><b>Status</b></td>
+                </tr>
+            </thead>
+            <tr>
+                <td>SR2451EW32</td>
+                <td>08.04.2026</td>
+                <td>name@shuffle.dev</td>
+                <td>Monthly</td>
+                <td><span class="hey">Completed</span></td>
+            </tr>
+            <tr>
+                <td>SR2451EW32</td>
+                <td>08.04.2026</td>
+                <td>name@shuffle.dev</td>
+                <td>Monthly</td>
+                <td><span id="p1">Canceled</span></td>
+            </tr>
+            <br>
+            <tr>
+                <td>SR2451EW32</td>
+                <td>08.04.2026</td>
+                <td>name@shuffle.dev</td>
+                <td>Monthly</td>
+                <td><span id="p2">Pending</span></td>
+            </tr>
+            <br>
+            <tr>
+                <td>SR2451EW32</td>
+                <td>08.04.2026</td>
+                <td>name@shuffle.dev</td>
+                <td>Monthly</td>
+                <td><span class="hey">Completed</span></td>
+            </tr>
+            <br>
+            <tr>
+                <td>SR2451EW32</td>
+                <td>08.04.2026</td>
+                <td>name@shuffle.dev</td>
+                <td>Monthly</td>
+                <td><span class="hey">Completed</span></td>
+            </tr>
+        </table>
+        <a href="#" id="p3">Load more transaction</a>
+    </div>
+</body>
+
+</html>

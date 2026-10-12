@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .ball{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        animation: bouncingball 8s infinite;
+     }
+
+     @keyframes bouncingball {
+        0%{
+            top:0;
+        }
+        50%{
+            top:100px;
+        }
+        100%{
+            top: 0%;
+        }
+     }
+     .box{
+        width: 150px;
+        height: 150px;
+        background-color: royalblue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-size: 20px;
+        opacity: 0;
+
+        animation: slideandflade 3s ease-in-out;
+     }
+
+    @keyframes slideandflade {
+        from {
+            left: 0;
+        }
+        to {
+            left: 300px;
+            opacity: 1;
+        }
+    }
+    .spinner {
+        width: 60px;
+        height: 60px;
+        border: 8px solid white;
+        border-top: 8px solid royalblue;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 100px auto;
+    }
+    @keyframes spin{
+        0% {
+            transform: rotate(0deg);
+
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <hr>
+
+
+    <hr>
+
+    <div class="box">Hello</div>
+
+
+    <div class="spinner"></div>
+</body>
+</html>
